@@ -1,4 +1,4 @@
-import IconEllipsis from '../public/images/icon-ellipsis.svg?react';
+import IconEllipsis from './icon-ellipsis.svg?react';
 
 export default function TimeCard({ title, prevTitle, bg, icon, timeframe }) {    
     return (
