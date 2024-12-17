@@ -12,7 +12,7 @@ export default function TimeCard({ title, prevTitle, bg, icon, timeframe }) {
                     <IconEllipsis className="text-pale-blue hover:cursor-pointer hover:text-white" />
                 </div>
                 <div className="flex justify-between items-center gap-3 lg:flex-col lg:items-start">
-                    <p className="text-4xl font-light">{timeframe.current}hrs</p>
+                    <p className="text-4xl font-light lg:text-6xl">{timeframe.current}hrs</p>
                     <p className="text-pale-blue">Last {prevTitle} - {timeframe.previous}hrs</p>
                 </div>
             </div>
